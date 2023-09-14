@@ -98,7 +98,7 @@ console.log("");
 console.log("Factorial entre 1 y 12 con FOR");
 
 let productFor = 1;
-for (var i = 1; i <= 12; i++) {
+for (let i = 1; i <= 12; i++) {
     productFor *= i;
 }
 
